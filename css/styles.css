@@ -6,6 +6,18 @@
 	text-shadow: 1px 1px black, -.25px -.25px black;
 }
 .homePageDescription{
-	margin-left: 26%;
+	margin-left: 24%;
 	margin-top: 2%;
+}
+.icon-bar{
+	background-color: black;
+}
+#myNavbar{
+	float: left;
+}
+.navbar-toggle{
+	float: left;
+}
+footer{
+	margin-top: 20%;
 }
