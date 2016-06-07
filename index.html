@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="lingoApp">
 <head>
 	<title>Learn the Lingo</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,12 +12,13 @@
   	<script src="https://checkout.stripe.com/checkout.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="js/lingo.js"></script>
+	<script type="text/javascript" src='js/controller.js'></script>
+	<script type="text/javascript" src='js/routes.js'></script>
 </head>
-<body>
+<body ng-controller="lingoController">
 
 	<div class="container-fluid col-sm-12">
 		<div class="sideMenu">
-			<!-- <div class="row"> -->
 			<nav>
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
 					<span class="icon-bar"></span>
@@ -25,10 +26,10 @@
         			<span class="icon-bar"></span>
 				</button>
 				<div class="collapse navbar-collapse" id="myNavbar">
-					<ul class="nav nav-pills nav-stacked col-sm-11 col-md-11 col-lg-11">
-						<li role="presentation" ><a href="#">Home</a></li>
+					<ul class="nav nav-pills nav-stacked col-sm-11 col-md-12 col-lg-12">
+						<li role="presentation" class="active"><a href="#">Home</a></li>
 						<li role="presentation"><a href="#">About</a></li>
-						<li role="presentation" class="active"><a href="#">Languages</a></li>
+						<li role="presentation"><a href="#">Languages</a></li>
 						<li role="presentation"><a href="#">Contribute</a></li>
 						<li role="presentation"><a href="#">Contact</a></li>
 						<li role="presentation"><a href="#">Forum</a></li>
@@ -36,20 +37,7 @@
 					</ul>
 				</div>
 			</nav>
-			<!-- </div> -->
-		</div>
-		<div class="header">
-			<!-- <div class="row"> -->
-				<h1 class="mainHeader text-center">Learn The Lingo</h1>
-				<h2 class="subHeader text-center">Welcome to Learn The Lingo</h2>
-			<!-- </div> -->
-		</div>
-		<div class="homePageDescription col-sm-5">
-			<div class="row">
-				<p>Learn The Lingo is a website that teaches people new languages with a different approach. Please sign up and give some of the language lessons a try. If you have any questions please check the FAQ page. If you'd like to contact me, please send me an email in the contact page.</p>
-				<br>
-				<p>I hope this site helps you achieve learning the language easier and faster than other language learning websites. Enjoy!</p>
-			</div>
+			<div ng-view></div>
 		</div>
 	</div>
 <footer class="col-sm-12 text-center">
