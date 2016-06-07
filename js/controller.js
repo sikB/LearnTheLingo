@@ -2,25 +2,25 @@ var lingoApp = angular.module('lingoApp', ['ngRoute', 'ngCookies']);
 
 lingoApp.config(function($routeProvider) {
     $routeProvider.when('/', {
-        templateUrl: "homePage.html",
+        templateUrl: "html/homePage.html",
         controller: 'lingoController'
     }).when('/register', {
-        templateUrl: "register.html",
+        templateUrl: "html/register.html",
         controller: 'registerController'        
     }).when('/FAQ', {
-        templateUrl: "FAQ.html",
+        templateUrl: "html/FAQ.html",
         controller: 'faqController'
     }).when('/login', {
-        templateUrl: "login.html",
+        templateUrl: "html/login.html",
         controller: 'loginController'
     }).when('/lessons', {
-        templateUrl: "lessons.html",
+        templateUrl: "html/lessons.html",
         controller: 'lessonsController'
     }).when('/about', {
-        templateUrl: "about.html",
+        templateUrl: "html/about.html",
         controller: 'aboutController'
     }).when('/contribute', {
-        templateUrl: "contribute.html",
+        templateUrl: "html/contribute.html",
         controller: 'contributeController'
     }).otherwise({
 		redirectTo: '/'
