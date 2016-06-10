@@ -1,5 +1,6 @@
 var lingoApp = angular.module('lingoApp', ['ngRoute', 'ngCookies']);
 
+
 lingoApp.config(function($routeProvider) {
     $routeProvider.when('/', {
         templateUrl: "homePage.html",
@@ -23,9 +24,10 @@ lingoApp.config(function($routeProvider) {
         templateUrl: "contribute.html",
         controller: 'contributeController'
     }).otherwise({
-		redirectTo: '/'
-	})
+        redirectTo: '/homePage.html'
+    })
 });
+
 lingoApp.controller('lingoController', function($scope, $http, $location, $cookies){
 
 });

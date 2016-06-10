@@ -2,6 +2,7 @@
 <html ng-app="lingoApp">
 <head>
 	<title>Learn the Lingo</title>
+	<!-- Access-Control-Allow-Origin -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
@@ -11,8 +12,8 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
   	<script src="https://checkout.stripe.com/checkout.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-	<script type="text/javascript" src="js/lingo.js"></script>
-	<script type="text/javascript" src='js/controller.js'></script>
+	<script type="text/javascript" src='controller.js'></script>
+	<script type="text/javascript" src='server.js'></script>
 </head>
 <body ng-controller="lingoController">
 
@@ -26,13 +27,13 @@
 				</button>
 				<div class="collapse navbar-collapse" id="myNavbar">
 					<ul class="nav nav-pills nav-stacked col-sm-11 col-md-12 col-lg-12">
-						<li role="presentation" class="active"><a href="html/homePage.html">Home</a></li>
-						<li role="presentation"><a href="html/about.html">About</a></li>
-						<li role="presentation"><a href="html/languages.html">Languages</a></li>
-						<li role="presentation"><a href="html/contribute.html">Contribute</a></li>
-						<li role="presentation"><a href="html/contact.html">Contact</a></li>
-						<li role="presentation"><a href="html/forum.html">Forum</a></li>
-						<li role="presentation"><a href="html/FAQ.html">FAQ</a></li>
+						<li role="presentation" class="active"><a href="homePage.html">Home</a></li>
+						<li role="presentation"><a href="about.html">About</a></li>
+						<li role="presentation"><a href="languages.html">Languages</a></li>
+						<li role="presentation"><a href="contribute.html">Contribute</a></li>
+						<li role="presentation"><a href="contact.html">Contact</a></li>
+						<li role="presentation"><a href="forum.html">Forum</a></li>
+						<li role="presentation"><a href="FAQ.html">FAQ</a></li>
 					</ul>
 				</div>
 			</nav>
