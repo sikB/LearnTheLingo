@@ -4,10 +4,15 @@
 .mainHeader{
 	color: #e6ffe6;
 	text-shadow: 1px 1px black, -.25px -.25px black;
+	font-size: 45px;
+}
+.subHeader{
+	font-size: 30px;
 }
 .homePageDescription{
 	margin-left: 24%;
 	margin-top: 2%;
+	font-size: 20px;
 }
 .icon-bar{
 	background-color: black;
@@ -21,4 +26,14 @@
 }
 footer{
 	margin-top: 20%;
+}
+.aboutContainer{
+	margin-top: 4%;
+	font-size: 20px;
+}
+.abouth1{
+	font-size: 36px;
+}
+li .active{
+	background: blue;
 }

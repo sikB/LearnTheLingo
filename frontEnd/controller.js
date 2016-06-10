@@ -17,9 +17,18 @@ lingoApp.config(function($routeProvider) {
     }).when('/lessons', {
         templateUrl: "lessons.html",
         controller: 'lessonsController'
+    }).when('/languages', {
+        templateUrl: "languages.html",
+        controller: 'languagesController'
     }).when('/about', {
         templateUrl: "about.html",
         controller: 'aboutController'
+    }).when('/forum', {
+        templateUrl: "forum.html",
+        controller: 'forumController'
+    }).when('/contact', {
+        templateUrl: "contact.html",
+        controller: 'contactController'
     }).when('/contribute', {
         templateUrl: "contribute.html",
         controller: 'contributeController'
@@ -29,6 +38,10 @@ lingoApp.config(function($routeProvider) {
 });
 
 lingoApp.controller('lingoController', function($scope, $http, $location, $cookies){
+
+});
+
+lingoApp.controller('languagesController', function($scope, $http, $location, $cookies){
 
 });
 
@@ -53,6 +66,14 @@ lingoApp.controller('aboutController', function($scope, $http, $location, $cooki
 });
 
 lingoApp.controller('contributeController', function($scope, $http, $location, $cookies){
+
+});
+
+lingoApp.controller('contactController', function($scope, $http, $location, $cookies){
+
+});
+
+lingoApp.controller('forumController', function($scope, $http, $location, $cookies){
 
 });
 
