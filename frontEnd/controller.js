@@ -13,8 +13,8 @@ lingoApp.config(function($routeProvider) {
     }).when('/login', {
         templateUrl: "login.html",
         controller: 'loginController'
-    }).when('/lessons', {
-        templateUrl: "lessons.html",
+    }).when('/lessons/ukrainianLessons', {
+        templateUrl: "ukrainianLessons.html",
         controller: 'lessonsController'
     }).when('/languages', {
         templateUrl: "languages.html",
