@@ -1,6 +1,5 @@
 var lingoApp = angular.module('lingoApp', ['ngRoute', 'ngCookies']);
 
-
 lingoApp.config(function($routeProvider) {
     $routeProvider.when('/', {
         templateUrl: "homePage.html",
