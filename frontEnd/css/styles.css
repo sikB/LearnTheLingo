@@ -53,3 +53,12 @@ li .active{
 	margin-top: 2%;
 	float: right;
 }
+.ukrainianLessonCategories{
+	margin-top: 5%;
+}
+.listOfLessons li{
+	list-style: none;
+	font-size: 20px;
+	float: left;
+	margin-top: 5%;
+}
