@@ -68,3 +68,37 @@ li .active{
 th{
 	padding-top: 2%;
 }
+.blue{
+	color: blue;
+}
+.red{
+	color: red;
+}
+.white{
+	color: white;
+	-webkit-text-stroke-width: .75px;
+	-webkit-text-stroke-color: black;
+}
+.yellow{
+	color: yellow;
+	-webkit-text-stroke-width: .75px;
+	-webkit-text-stroke-color: black;
+}
+.green{
+	color: green;
+}
+.brown{
+	color: brown;
+}
+.orange{
+	color: orange;
+}
+.purple{
+	color: purple;
+}
+.lightBlue{
+	color: #66ccff;
+}
+.darkRed{
+	color: #cc0000;
+}
