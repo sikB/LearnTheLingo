@@ -62,3 +62,9 @@ li .active{
 	float: left;
 	margin-top: 5%;
 }
+.biggerLetter{
+	font-size: 19px;
+}
+th{
+	padding-top: 2%;
+}
