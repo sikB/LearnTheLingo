@@ -13,7 +13,7 @@ lingoApp.config(function($routeProvider) {
     }).when('/login', {
         templateUrl: "login.html",
         controller: 'loginController'
-    }).when('/lessons', {
+    }).when('/ukrainian', {
         templateUrl: "ukrainianLessons.html",
         controller: 'lessonsController'
     }).when('/languages', {
@@ -32,7 +32,7 @@ lingoApp.config(function($routeProvider) {
         templateUrl: "contribute.html",
         controller: 'contributeController'
     }).otherwise({
-        redirectTo: '/homePage.html'
+        redirectTo: '/ukrainianLessons.html'
     })
 });
 
@@ -53,10 +53,6 @@ lingoApp.controller('faqController', function($scope, $http, $location, $cookies
 });
 
 lingoApp.controller('loginController', function($scope, $http, $location, $cookies){
-
-});
-
-lingoApp.controller('lessonsController', function($scope, $http, $location, $cookies){
 
 });
 

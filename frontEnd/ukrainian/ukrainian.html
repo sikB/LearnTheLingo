@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+	<html ng-app="ukrainianApp">
 	<head>
 	<title>Learn the Lingo</title>
 	<!-- Access-Control-Allow-Origin -->
@@ -10,7 +12,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
   	<script src="https://checkout.stripe.com/checkout.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-	<script type="text/javascript" src='../controller.js'></script>
+	<script type="text/javascript" src='../ukrainianController.js'></script>
 	<script type="text/javascript" src='../server.js'></script>
 	<script type="text/javascript" src='../js/lingo.js'></script>
 </head>
@@ -36,51 +38,10 @@
 				</div>
 			</nav>
 		</div>
-		<div class="ukrainianLessonCategories">
-			<div class="listOfLessons col-sm-3 col-md-3 col-lg-3">
-				<ul>
-					<li><a href="ukrainian/greetings.html"> Greetings </a></li>
-				</ul>
-			</div><div class="listOfLessons col-sm-3 col-md-3 col-lg-3">
-				<ul>
-					<li><a href="ukrainian/intoductions.html"> Introductions </a></li>
-				</ul>
-			</div>
-			<div class="listOfLessons col-sm-3 col-md-3 col-lg-3">
-				<ul>
-					<li><a href="ukrainian/numbers.html"> Numbers </a></li>
-				</ul>
-			</div>
-			<div class="listOfLessons col-sm-3 col-md-3 col-lg-3">
-				<ul>
-					<li><a href="ukrainian/colors.html"> Colors </a></li>
-				</ul>
-			</div>
-			<div class="listOfLessons col-sm-3 col-md-3 col-lg-3">
-				<ul>
-					<li><a href="ukrainian/howTo.html"> How to... </a></li>
-				</ul>
-			</div>
-			<div class="listOfLessons col-sm-3 col-md-3 col-lg-3">
-				<ul>
-					<li><a href="ukrainian/ordering.html"> Ordering (restaurant) </a></li>
-				</ul>
-			</div>
-			<div class="listOfLessons col-sm-3 col-md-3 col-lg-3">
-				<ul>
-					<li><a href="ukrainian/navigation.html"> Navigating/Directions </a></li>
-				</ul>
-			</div>
-			<div class="listOfLessons col-sm-3 col-md-3 col-lg-3">
-				<ul>
-					<li><a href="ukrainian/bar.html"> Bar Scene </a></li>
-				</ul>
-			</div>
-			<div class="listOfLessons col-sm-3 col-md-3 col-lg-3">
-				<ul>
-					<li><a href="ukrainian/jokes.html"> Jokes </a></li>
-				</ul>
-			</div>
-		</div>
+		<div ng-view></div>
 	</div>
+	<footer class="col-sm-12 text-center">
+	<p>&copy Sik Marketing 2016 | Bogdan Sikhovski</p>
+</footer>
 	</body>
+	</html>
