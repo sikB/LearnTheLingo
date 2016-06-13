@@ -102,3 +102,27 @@ th{
 .darkRed{
 	color: #cc0000;
 }
+.orderButton{
+	float: right;
+	margin-top: 5%;
+}
+.greetingsButton{
+	float: right;
+	margin-top: 5%;
+}
+.colorsButton{
+	float: right;
+	margin-top: 5%;
+}
+.daysButton{
+	float: right;
+	margin-top: 5%;
+}
+.numbersButton{
+	float: right;
+	margin-top: 5%;
+}
+.introductionsButton{
+	float: right;
+	margin-top: 5%;
+}
