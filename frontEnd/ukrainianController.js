@@ -16,8 +16,8 @@ ukrainianApp.config(function($routeProvider) {
     }).when('/colors', {
         templateUrl: "colors.html",
         controller: 'lessonsController'
-    }).when('/howTo', {
-        templateUrl: "howTo.html",
+    }).when('/days', {
+        templateUrl: "days.html",
         controller: 'lessonsController'
     }).when('/ordering', {
         templateUrl: "ordering.html",
