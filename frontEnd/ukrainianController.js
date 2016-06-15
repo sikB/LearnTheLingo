@@ -48,10 +48,11 @@ ukrainianApp.controller('greetingsMGController', function($scope, $http, $locati
 
 // get images, place them in an array & randomize the order
 for (var i = 0; i < 8; i++) { 
-  var rand = Math.floor(Math.random() * (1200 - 900 + 1) + 900); 
-  var img = 'http://lolcat.com/images/lolcats/' + rand + '.jpg';
+  var rand = Math.floor(Math.random() * (10) + 1); 
+  var img = 'img/' + rand + '.png';
+  var img2 = 'img2/' + rand + '.png';
   images.push(img);
-  images.push(img);
+  images.push(img2);
 }
 randomizeImages();
 
@@ -80,18 +81,20 @@ $("li").click(function() {
     
     //guess #1
     if (count === 1 ) { 
-      guess1 = $(this).children("img").attr("src"); 
+      console.log($(this).children("img"));
+      guess1 = $(this).children("img").attr("src");     
     }   
     
     //guess #2
     else { 
+      console.log($(this).children("img").attr("src"));
       guess2 = $(this).children("img").attr("src"); 
-      
+      }
       // since it's the 2nd guess check for match
       if (guess1 === guess2) { 
         console.log("match");
         $("li").children("img[src='" + guess2 + "']").addClass("match");
-      } 
+              } 
       
       // else it's a miss
       else { 
@@ -104,10 +107,9 @@ $("li").click(function() {
       
       // reset
       count = 0; 
-      setTimeout(function() { console.clear(); }, 60000);      
+      // setTimeout(function() { console.clear(); }, 60000);      
     }
-  }
-});
+  });
 
 // randomize array of images
 function randomizeImages(){
