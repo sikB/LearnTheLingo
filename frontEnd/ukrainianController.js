@@ -39,11 +39,11 @@ ukrainianApp.config(function($routeProvider) {
     })
 });
 
-ukrainianApp.controller('lessonsController', function($scope, $http, $location, $cookies, ngAudio){
-  
+ukrainianApp.controller('lessonsController', function($scope, $http, $location, ngAudio){
+
 });
 
-ukrainianApp.controller('greetingsMGController', function($scope, $http, $location, $cookies){
+ukrainianApp.controller('greetingsMGController', function($scope, $http, $location){
     var imagesUkr = [];
     var imagesUS = [];
 
