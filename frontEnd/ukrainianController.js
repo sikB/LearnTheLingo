@@ -44,25 +44,63 @@ ukrainianApp.controller('lessonsController', function($scope, $http, $location, 
 });
 
 ukrainianApp.controller('greetingsMGController', function($scope, $http, $location, $cookies){
-    var images = [];
+    var imagesUkr = [];
+    var imagesUS = [];
 
 // get images, place them in an array & randomize the order
-for (var i = 0; i < 8; i++) { 
-  var rand = Math.floor(Math.random() * (10) + 1); 
-  var img = 'img/' + rand + '.png';
-  var img2 = 'img2/' + rand + '.png';
-  images.push(img);
-  images.push(img2);
+for (var i = 2; i <= 9; i++) { 
+  // var rand = Math.floor(Math.random() * (10)); 
+  // console.log(rand);
+  var img = 'img/' + i + '.png';
+  var img2 = 'img2/' + i + '.png';
+  imagesUkr.push(img);
+  imagesUS.push(img2);
 }
-randomizeImages();
+// randomizeImages();
+
+// for(var i=0; i<16; i++){
+//   if(i<8){
+//       var img = 'img/' + i + '.png';
+//       imagesUkr.push(img);
+//     }if(i>8){
+//     var img2 = 'img2/' + i + '.png';
+//     imagesUS.push(img2); 
+//     }
+//   }
+
+// console.log('---------------------');
+// console.log(imagesUkr);
+// console.log(imagesUS);
+// console.log('---------------------');
+//   randomizeImages();
+
+
+
 
 // output images then hide them
 var output = "<ol>"; 
-for (var i = 0; i < 16; i++) { 
-  output += "<li class=memGame>";
-  output += "<img src = '" + images[i] + "'/>";
-  output += "</li>";
-}
+for (i = 1; i <=16; i++) { 
+    output += "<li class=memGame>";
+  if(i<=8){
+    output += "<img src = '" + imagesUkr[i] + "'" + "card='card" + i + "'>";
+    }
+    else{
+      var j = i-8;
+      // console.log(j);
+        output += "<img src = '" + imagesUS[j] + "'" + "card='card" + j + "'>";
+    }
+
+    output += "</li>";
+  // output += "<img src = '" + imagesUkr[i] +"'>";
+  // for(var j=1; j<=8; j++){
+    // output += "<img src = '" + imagesUS[j] +"'>";
+    // output += "</li>";
+  }
+// console.log('---------------------');
+//   console.log(imagesUkr);
+//   console.log(imagesUS);
+// console.log('---------------------');
+
 output += "</ol>";
 document.getElementById("container").innerHTML = output;
 $("img").hide();
@@ -81,19 +119,20 @@ $("li").click(function() {
     
     //guess #1
     if (count === 1 ) { 
-      console.log($(this).children("img"));
-      guess1 = $(this).children("img").attr("src");     
+      // console.log($(this).children("img").attr('card'));
+      guess1 = $(this).children("img").attr("card");     
     }   
     
     //guess #2
     else { 
-      console.log($(this).children("img").attr("src"));
-      guess2 = $(this).children("img").attr("src"); 
-      }
+      // console.log($(this).children("img").attr("card"));
+      guess2 = $(this).children("img").attr("card"); 
+      // console.log(guess2);
       // since it's the 2nd guess check for match
       if (guess1 === guess2) { 
+      console.log(guess1);
         console.log("match");
-        $("li").children("img[src='" + guess2 + "']").addClass("match");
+        $("li").children("img[card='" + guess2 + "']").addClass("match");
               } 
       
       // else it's a miss
@@ -104,14 +143,14 @@ $("li").click(function() {
           $("img").not(".match").removeClass("face-up");
         }, 1000);
       }
-      
+    
       // reset
-      count = 0; 
+      count = 0; }
       // setTimeout(function() { console.clear(); }, 60000);      
     }
   });
 
-// randomize array of images
+// // randomize array of images
 function randomizeImages(){
   Array.prototype.randomize = function()
   {
@@ -125,6 +164,8 @@ function randomizeImages(){
     }
   };
   
-  images.randomize();
+  imagesUkr.randomize();
+  imagesUS.randomize();
 }
 });
+
