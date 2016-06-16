@@ -1,18 +1,43 @@
+html{
+	background: url('../img/lingoBackground.jpg')  fixed right;
+}
+body{
+	background-color: black;
+}
+aside{
+	background-color: black;
+}
+li{
+	border-bottom: 1px solid white;
+	padding-bottom: 13%;
+}
+li a {
+	color: white;
+}
+.sideMenu{
+	height: 681px;
+	background: black;
+	padding: 0px !important;
+	margin-left: -2%;
+	width: 23.2%;
+}
 .nav-stacked{
 	margin-top: 1%;
 }
 .mainHeader{
-	color: #e6ffe6;
+	color: #33cc33;
 	text-shadow: 1px 1px black, -.25px -.25px black;
 	font-size: 45px;
 }
 .subHeader{
 	font-size: 30px;
+	color: white;
 }
 .homePageDescription{
 	margin-left: 24%;
 	margin-top: 2%;
 	font-size: 20px;
+	color: white;
 }
 .icon-bar{
 	background-color: black;
@@ -25,23 +50,36 @@
 	float: left;
 }
 footer{
-	margin-top: 20%;
+	margin-top: 2%;
 }
 .aboutContainer{
 	margin-top: 4%;
 	font-size: 20px;
 }
+.aboutLingo{
+	color: white;
+}
 .abouth1{
 	font-size: 36px;
+	color: white;
 }
 li .active{
 	background: blue;
+}
+.languagesHeader{
+	color: white;
 }
 .languageOptions{
 	font-size: 20px;
 	list-style: none;
 	margin-top: 2%;
 	float: left;
+}
+.languageContainer{
+	color: white;
+}
+.languageContainer a{
+	color: white;
 }
 .languageUl{
 	margin-top: 2%;
@@ -56,6 +94,13 @@ li .active{
 .ukrainianLessonCategories{
 	margin-top: 5%;
 }
+.ukrainianHeader{
+	color: white;
+}
+.ukrainianHeader a{
+	color: white;
+}
+
 .listOfLessons li{
 	list-style: none;
 	font-size: 20px;
@@ -110,6 +155,21 @@ th{
 	margin-left: 63%;
 	margin-top: 5%;
 }
+.greetingsHeader{
+	color: white;
+}
+.glyphicon{
+	color: black;
+}
+.vocab{
+	color: white;
+}
+.greetingLesson{
+	color: white;
+}
+.introductionsLesson{
+	color: white;
+}
 .colorsButton{
 	margin-left: 66%;
 	margin-top: 5%;
@@ -121,6 +181,12 @@ th{
 .numbersButton{
 	margin-left: 63%;
 	margin-top: 5%;
+}
+.numberLesson{
+	color: white;
+}
+.daysLesson{
+	color: white;
 }
 .introductionsButton{
 	margin-left: 63%;
@@ -134,18 +200,27 @@ th{
 	margin-top: 4%;
 	font-size: 20px;
 }
+.navigationLesson{
+	color: white;
+}
 .contactButton{
-	margin-left: 70%;
+	margin-left: 72%;
+	margin-top: -55%;
+	width: 22.6%;
 }
 .messageInput{
 	margin-left: 27%;
 }
+.pink{
+	color: #ff66cc;
+}
 .name{
-	margin-top: -12%;
+	margin-top: -46%;
+	margin-left: 32.3%;
 }
 .email{
-	margin-top: -8%;
-	margin-left: 33.6%;
+	margin-top: -40%;
+	margin-left: 32.5%;
 }
 .ukrFlag{
 	width: 15%;

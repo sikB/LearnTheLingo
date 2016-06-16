@@ -13,31 +13,34 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 	<script type="text/javascript" src='controller.js'></script>
 	<script type="text/javascript" src='server.js'></script>
-	<script type="text/javascript" src='js/lingo.js'></script>
+	<!-- <script type="text/javascript" src='js/lingo.js'></script> -->
 </head>
 <body ng-controller="lingoController">
-	<div class="container-fluid col-sm-12">
-		<div class="sideMenu">
+	<div class="container-fluid col-sm-12 mainContainer">
+		<div class="sideMenu col-sm-3 col-md-3 col-lg-3 text-center">
 			<nav>
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
         			<span class="icon-bar"></span>
 				</button>
-				<div class="collapse navbar-collapse" id="myNavbar">
-					<ul class="nav nav-pills nav-stacked col-sm-11 col-md-12 col-lg-12 slide">
-						<li class="active"><a href="#/">Home</a></li>
-						<li><a href="#/about">About</a></li>
-						<li><a href="#/languages">Languages</a></li>
-						<li><a href="#/contribute">Contribute</a></li>
-						<li><a href="#/contact">Contact</a></li>
-						<li><a href="#/forum">Forum</a></li>
-						<li><a href="#/FAQ">FAQ</a></li>
-					</ul>
-				</div>
+				<aside>
+					<div class="collapse navbar-collapse" id="myNavbar">
+						<ul class="nav nav-pills nav-stacked col-sm-11 col-sm-offset-6 col-md-12 col-lg-12 slide">
+							<li class=""><a href="#/">Home</a></li>
+							<li><a href="#/about">About</a></li>
+							<li><a href="#/languages">Languages</a></li>
+							<li><a href="#/contribute">Contribute</a></li>
+							<li><a href="#/contact">Contact</a></li>
+							<li><a href="#/forum">Forum</a></li>
+							<li><a href="#/FAQ">FAQ</a></li>
+						</ul>
+					</div>
+				</aside>
 			</nav>
-			<div ng-view></div>
 		</div>
+			<div ng-view></div>
+		
 	</div>
 <footer class="col-sm-12 text-center">
 	<p>&copy Sik Marketing 2016 | Bogdan Sikhovski</p>
