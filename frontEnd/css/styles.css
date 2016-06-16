@@ -103,30 +103,64 @@ th{
 	color: #cc0000;
 }
 .orderButton{
-	float: right;
+	margin-left: 67%;
 	margin-top: 5%;
 }
 .greetingsButton{
-	float: right;
+	margin-left: 63%;
 	margin-top: 5%;
 }
 .colorsButton{
-	float: right;
+	margin-left: 66%;
 	margin-top: 5%;
 }
 .daysButton{
-	float: right;
+	margin-left: 67%;
 	margin-top: 5%;
 }
 .numbersButton{
-	float: right;
+	margin-left: 63%;
 	margin-top: 5%;
 }
 .introductionsButton{
-	float: right;
+	margin-left: 63%;
 	margin-top: 5%;
 }
 .navigationButton{
-	float: right;
+	margin-left: 63%;
 	margin-top: 5%;
+}
+.contributeText{
+	margin-top: 4%;
+	font-size: 20px;
+}
+.contactButton{
+	margin-left: 70%;
+}
+.messageInput{
+	margin-left: 27%;
+}
+.name{
+	margin-top: -12%;
+}
+.email{
+	margin-top: -8%;
+	margin-left: 33.6%;
+}
+.ukrFlag{
+	width: 15%;
+	margin-top: 6%;
+}
+.russFlag{
+	width: 15%;
+	border: 1px solid black;
+	margin-top: 6%;
+}
+.spainFlag{
+	width: 15%;
+	margin-top: 6%;
+}
+.italFlag{
+	width: 15%;
+	margin-top: 6%;
 }
