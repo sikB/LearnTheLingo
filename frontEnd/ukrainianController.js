@@ -40,6 +40,30 @@ ukrainianApp.config(function($routeProvider) {
 });
 
 ukrainianApp.controller('lessonsController', function($scope, $http, $location, $cookies){
+  makeNoise = function(){
+    document.getElementById('peaks-audio').play();
+  }
+   makeNoise1 = function(){
+    document.getElementById('peaks-audio1').play();
+  }
+  makeNoise2 = function(){
+    document.getElementById('peaks-audio2').play();
+  }
+  makeNoise3 = function(){
+    document.getElementById('peaks-audio3').play();
+  }
+  makeNoise4 = function(){
+    document.getElementById('peaks-audio4').play();
+  }
+  makeNoise5 = function(){
+    document.getElementById('peaks-audio5').play();
+  }
+  makeNoise6 = function(){
+    document.getElementById('peaks-audio6').play();
+  }
+  makeNoise7 = function(){
+    document.getElementById('peaks-audio7').play();
+  }
 
 });
 
