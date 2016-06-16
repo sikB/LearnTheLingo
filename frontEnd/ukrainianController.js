@@ -48,7 +48,7 @@ ukrainianApp.controller('greetingsMGController', function($scope, $http, $locati
     var imagesUS = [];
 
 // get images, place them in an array & randomize the order
-for (var i = 2; i <= 9; i++) { 
+for (var i = 1; i <= 9; i++) { 
   // var rand = Math.floor(Math.random() * (10)); 
   // console.log(rand);
   var img = 'img/' + i + '.png';
@@ -58,30 +58,17 @@ for (var i = 2; i <= 9; i++) {
 }
 // randomizeImages();
 
-// for(var i=0; i<16; i++){
-//   if(i<8){
-//       var img = 'img/' + i + '.png';
-//       imagesUkr.push(img);
-//     }if(i>8){
-//     var img2 = 'img2/' + i + '.png';
-//     imagesUS.push(img2); 
-//     }
-//   }
-
 // console.log('---------------------');
 // console.log(imagesUkr);
 // console.log(imagesUS);
 // console.log('---------------------');
-//   randomizeImages();
-
-
-
 
 // output images then hide them
 var output = "<ol>"; 
 for (i = 1; i <=16; i++) { 
     output += "<li class=memGame>";
-  if(i<=8){
+  if(i<9){
+    // console.log(i);
     output += "<img src = '" + imagesUkr[i] + "'" + "card='card" + i + "'>";
     }
     else{
@@ -91,10 +78,6 @@ for (i = 1; i <=16; i++) {
     }
 
     output += "</li>";
-  // output += "<img src = '" + imagesUkr[i] +"'>";
-  // for(var j=1; j<=8; j++){
-    // output += "<img src = '" + imagesUS[j] +"'>";
-    // output += "</li>";
   }
 // console.log('---------------------');
 //   console.log(imagesUkr);
