@@ -64,6 +64,69 @@ ukrainianApp.controller('lessonsController', function($scope, $http, $location, 
   makeNoise7 = function(){
     document.getElementById('peaks-audio7').play();
   }
+  makeNoise8 = function(){
+    document.getElementById('peaks-audio8').play();
+  }
+  makeNoise9 = function(){
+    document.getElementById('peaks-audio9').play();
+  }
+  makeNoise10 = function(){
+    document.getElementById('peaks-audio10').play();
+  }
+  makeNoise11 = function(){
+    document.getElementById('peaks-audio11').play();
+  }
+  makeNoise12 = function(){
+    document.getElementById('peaks-audio12').play();
+  }
+  makeNoise13 = function(){
+    document.getElementById('peaks-audio13').play();
+  }
+  makeNoise14 = function(){
+    document.getElementById('peaks-audio14').play();
+  }
+  makeNoise15 = function(){
+    document.getElementById('peaks-audio15').play();
+  }
+  makeNoise16 = function(){
+    document.getElementById('peaks-audio16').play();
+  }
+  makeNoise17 = function(){
+    document.getElementById('peaks-audio17').play();
+  }
+  makeNoise18 = function(){
+    document.getElementById('peaks-audio18').play();
+  }
+  makeNoise19 = function(){
+    document.getElementById('peaks-audio19').play();
+  }
+  makeNoise20 = function(){
+    document.getElementById('peaks-audio20').play();
+  }
+  makeNoise21 = function(){
+    document.getElementById('peaks-audio21').play();
+  }
+  makeNoise22 = function(){
+    document.getElementById('peaks-audio22').play();
+  }
+  makeNoise23 = function(){
+    document.getElementById('peaks-audio23').play();
+  }
+  makeNoise24 = function(){
+    document.getElementById('peaks-audio24').play();
+  }
+  makeNoise25 = function(){
+    document.getElementById('peaks-audio25').play();
+  }
+  makeNoise26 = function(){
+    document.getElementById('peaks-audio26').play();
+  }
+  makeNoise27 = function(){
+    document.getElementById('peaks-audio27').play();
+  }
+  makeNoise28 = function(){
+    document.getElementById('peaks-audio28').play();
+  }
 
 });
 
