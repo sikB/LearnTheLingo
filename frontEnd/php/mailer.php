@@ -14,6 +14,6 @@
       } else {
       echo "Message sent!";
       }
-      header('location: http://localhost:8000/index.html#/');
+      header('location: /#/');
 
 ?>
