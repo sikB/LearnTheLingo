@@ -1,5 +1,7 @@
 html{
-	background: url('../img/lingoBackground.jpg')  fixed right;
+	background: url('../img/lingoBackground1.jpg');
+	background-size: 100%;
+	font-family: 'Raleway', sans-serif;
 }
 body{
 	background-color: black;
@@ -11,23 +13,41 @@ li{
 	border-bottom: 1px solid white;
 	padding-bottom: 13%;
 }
+.rowText{
+	background: rgba(0, 0, 0, 0.5);
+    padding: 3%;
+    border-radius: 3%;
+}
 li a {
 	color: white;
+}
+a:hover{
+	color: white;
+}
+p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 900;
 }
 .sideMenu{
 	height: 681px;
 	background: black;
 	padding: 0px !important;
 	margin-left: -2%;
-	width: 23.2%;
+	width: 10.2%;
 }
 .nav-stacked{
 	margin-top: 1%;
 }
 .mainHeader{
-	color: #33cc33;
+	font-family: 'Raleway', sans-serif;
+	color: white;
 	text-shadow: 1px 1px black, -.25px -.25px black;
 	font-size: 45px;
+	font-weight: 900;
 }
 .subHeader{
 	font-size: 30px;
@@ -55,6 +75,10 @@ footer{
 .aboutContainer{
 	margin-top: 4%;
 	font-size: 20px;
+}
+.black{
+	-webkit-text-stroke-width: .25px;
+	-webkit-text-stroke-color: white;
 }
 .aboutLingo{
 	color: white;
