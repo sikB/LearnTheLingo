@@ -6,14 +6,6 @@ error_reporting(E_ALL);
 
 session_start();
 require_once 'meekrodb.2.3.class.php';
-// $link = mysql_connect('localhost', 'x', 'x');
-// 	if(!$link){
-// 		print 'not connected: ' . mysql_error();
-// 	};
-// 	$db_selected = mysql_select_db('LearnTheLingo', $link);
-// 	if(!$db_selected){
-// 			die("Cannot use db LearnTheLingo: " . mysql_error());
-// 		};
 DB::$user = 'x';
 DB::$password = 'x';
 DB::$dbName = 'LearnTheLingo';
