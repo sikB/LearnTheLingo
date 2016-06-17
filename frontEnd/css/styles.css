@@ -18,6 +18,9 @@ li{
     padding: 3%;
     border-radius: 3%;
 }
+.loginContainer{
+	margin-top: 2%;
+}
 li a {
 	color: white;
 }

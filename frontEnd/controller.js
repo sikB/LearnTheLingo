@@ -5,7 +5,7 @@ lingoApp.config(function($routeProvider) {
         templateUrl: "homePage.html",
         controller: 'lingoController'
     }).when('/register', {
-        templateUrl: "register.php",
+        templateUrl: "register.html",
         controller: 'registerController'        
     }).when('/FAQ', {
         templateUrl: "FAQ.html",
