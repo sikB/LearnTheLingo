@@ -39,7 +39,7 @@ DB::insert('users', array(
 	));
 	$_SESSION['userName'] = $_POST['userName'];
 	$_SESSION['email'] = $_POST['email'];
-	header('Location: /#/?welcome=yes');
+	header('Location: http://sikhovski.com/LearnTheLingo/frontEnd/#/?welcome=yes');
 	exit;
 	}catch(MeekroDBException $e){
 		header('Location: /register.php?error=yes');
