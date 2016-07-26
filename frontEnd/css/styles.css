@@ -328,17 +328,17 @@ body{
 	font-size: 61px;
 	margin-left: 25%;
 	position: absolute;
-
 }
 .subHeader{
 	position: absolute;
 	top: 14%;
 	left: 50%;
-}.mobileLanguages{
+}
+.mobileLanguages{
 	left: 44%;
 	top: -643px;
 }
-.languageHeader{
+.languagesHeader{
 	position: relative;
 	left: 34%;
 	top: -12px;
