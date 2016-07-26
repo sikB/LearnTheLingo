@@ -308,6 +308,67 @@ th{
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 body{
-	background-color: blue;
+	background-color: none;
+}
+.navbar-toggle{
+	background-color: #eee;
+	left: 56px;
+}
+.sideMenu{
+	background-color: transparent;
+}
+.slide{
+	background: rgba(0, 0, 0, 0.5);
+}
+.homePageDescription{
+	margin-top: -75%;
+	margin-left: 19%;
+}
+.mainHeader{
+	font-size: 61px;
+	margin-left: 25%;
+	position: absolute;
+
+}
+.subHeader{
+	position: absolute;
+	top: 14%;
+	left: 50%;
+}.mobileLanguages{
+	left: 44%;
+	top: -643px;
+}
+.languageHeader{
+	position: relative;
+	left: 34%;
+	top: -12px;
+}
+.listOfLessons{
+	position: relative;
+	margin-left: 3%;
+	float: left;
+}
+.colorsMobile{
+	left: -54%;
+}
+.daysMobile{
+	left: 25%;
+	top: -67px;
+}
+.orderingMobile{
+	left: 35%;
+	top: -93px;
+}
+.navigatingMobile{
+	top: -15px;
+	left: -57%;
+}
+.barSceneMobile{
+	left: -32.5%;
+	top: -92px;
+}
+.jokesMobile{
+	left: 54.5%;
+	top: -160px;
 }
 }
