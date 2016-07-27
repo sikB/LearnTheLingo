@@ -346,8 +346,53 @@ th{
 		left: 19%;
 		width: 213px;
 		margin: 0;
-
 	}
+	.languagesHeader{
+		width: 200px;
+		margin:0;
+		position: relative;
+		text-align: left;
+		left: 31%;
+	}
+	.mobileLanguages{
+		padding:0;
+		width: 200px;
+		position: relative;
+		left: 36%;
+		top: 13px;
+	}
+	.rowText h3{
+		font-size: 15px;
+		padding-left: 5px;
+	}
+	.rowText table{
+		width: 100%;
+	}
+	.ukrFlag{
+		width: 50%;
+		position: relative;
+		top: 3px;
+		left: 10%;
+	}
+	.russFlag{
+		width: 58%;
+	    position: relative;
+	    top: 4px;
+	    left: 9%;
+	}
+	.spainFlag{
+		width: 53%;
+	    position: relative;
+	    top: 4px;
+	    left: 11%;
+	}
+	.italFlag{
+		width: 53%;
+	    position: relative;
+	    top: 4px;
+	    left: 12%;
+	}
+
 }
 
 @media only screen and (width: 768px) {
