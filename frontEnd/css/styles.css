@@ -319,11 +319,19 @@ th{
 	}
 	.orderingMobile{
 		position: relative;
-		top: 20px;
+		top: 0px;
+	}
+	.barSceneMobile{
+		position: relative;
+		top: -41px;
+	}
+	.jokesMobile{
+		position: relative;
+		top: -64px;
 	}
 	.navigatingMobile{
 		position: relative;
-		top: 10px;
+		top: -20px;
 	}
 	.mainHeader{
 		margin: 0;
@@ -391,6 +399,40 @@ th{
 	    position: relative;
 	    top: 4px;
 	    left: 12%;
+	}
+	.greetingsHeader{
+		width: 200px;
+		text-align: left;
+		position: relative;
+		left: 37%;
+		margin: 0;
+	}
+	.vocab{
+		width: 200px;
+	    margin: 0;
+	    text-align: left;
+	    position: relative;
+	    left: 43%;
+	    top: 5px;
+	}
+	.greetingLesson{
+		margin: 0;
+	    padding: 0;
+	    position: relative;
+	    top: -500px;
+	    font-size: 10px;
+	    width: 200px;
+	    left: 25%;
+	}
+	.ng-isolate-scope{
+		background: white;
+		border-radius: 50%;
+	}
+	.greetingsButton{
+		margin: 0;
+		position: relative;
+		left: 16%;
+		top: 12px;
 	}
 
 }
