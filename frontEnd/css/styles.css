@@ -298,15 +298,24 @@ th{
 	.ukrainianHeader{
 		position: relative;
 		top: -16px;
+		left: 14%;
+		width: 200px;
 	}
 	.greetingsMobile, .introductionsMobile, .numbersMobile, .colorsMobile{
 		position: relative;
 		top: -30px;
+		padding: 0;
+		left: 6%;
+	}
+	.colorsMobile{
+		top: 21px;
+		left: -36%;
 	}
 	.daysMobile{
 		position: relative;
-		left: -44%;
-		top: 34px;
+		left: -36%;
+		top: 20px;
+		padding-left: 0;
 	}
 	.orderingMobile{
 		position: relative;
@@ -315,6 +324,29 @@ th{
 	.navigatingMobile{
 		position: relative;
 		top: 10px;
+	}
+	.mainHeader{
+		margin: 0;
+		position: absolute;
+		left: 25%;
+		font-size: 32px;
+		top: 2.5%;
+		width: 245px;
+	}
+	.subHeader{
+		position: relative;
+		top: 25px;
+		left: 13%;
+		width: 240px;
+	}
+	.homePageDescription{
+		font-size: 15px;
+		position: relative;
+		top: 30px;
+		left: 19%;
+		width: 213px;
+		margin: 0;
+
 	}
 }
 
