@@ -560,9 +560,60 @@ th{
 	.contributeText{
 		font-size: 14px;
 	}
+	.name{
+		width: 10px;
+		position: relative;
+		color: white;
+		left: 13%;
+		top: 38px;
+		margin:0;
+	}
+	.nameInput{
+		position: relative;
+		left: -17px;
+	}
+	.email{
+		margin:0;
+		padding: 0;
+		position: relative;
+		top: 35px;
+		left: 13%;
+		color: white;
+	}
+	.emailStuff{
+		position: relative;
+		left: -78%;
+		top: -16px;
+	}
+	.messageStuff{
+		color: white;
+		margin:0;
+		padding:0;
+		position: relative;
+		top: 220px;
+		left: 6%;
+		width: 200px;
+		text-align: left;
+	}
+	.messageInput{
+		width: 200px;
+		position: relative;
+		margin:0;
+		padding:0;
+		top: 78px;
+		left: 19%;
+	}
+	.contactButton{
+		margin:0;
+		width: 100px;
+		position: relative;
+		top: 90px;
+		left: 71%;
+		padding:10px;
+	}
 
 }
-.colorsHeader, .vocabHeader, .daysHeader, .orderingHeader, .navigationHeader{
+.colorsHeader, .vocabHeader, .daysHeader, .orderingHeader, .navigationHeader, .nameStuff{
 	color: white;
 }
 
