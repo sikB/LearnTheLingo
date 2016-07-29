@@ -434,7 +434,123 @@ th{
 		left: 16%;
 		top: 12px;
 	}
+	.introductionsHeader{
+		position: relative;
+		left: 21%;
+	}
+	.introductionsLesson{
+		padding: 0;
+		position: relative;
+		top: -500px;
+		left: 21%;
+	}
+	.introductionsButton{
+		margin:0;
+		position: relative;
+		top: 5px;
+		left: 11%;
+	}
+	.numbersHeader{
+		margin:0;
+		padding:0;
+		position: relative;
+		left: 29%;
+		text-align: left;
+	}
+	.numberLesson{
+		padding:0;
+		width: 200px;
+		margin:0;
+		position: relative;
+		top: -500px;
+		left: 26%;
+	}
+	.numbersButton{
+		margin:0;
+		position: relative;
+		top: 5px;
+		left: 19%;
+	}
+	.theColorWhite{
+		color: white;
+	}
+	.colorLesson{
+		padding:0;
+		position: relative;
+		top: -500px;
+		left: 20%;
+	}
+	.colorsButton{
+		margin:0;
+		position: relative;
+		top: 5px;
+		left: 20%;
+	}
+	.colorsHeader{
+		margin:0;
+		width: 200px;
+		position: relative;
+		left: 15%;
+	}
+	.vocabHeader{
+		margin:0;
+		width: 200px;
+		position: relative;
+		left: 15.5%;
+	}
+	.daysLesson{
+		padding:0;
+		width: 200px;
+		position: relative;
+		top: -500px;
+		left: 25%;
+	}
+	.daysHeader{
+		margin:0;
+		width: 200px;
+		position: relative;
+		left: 15%;
+	}
+	.daysButton{
+		margin:0;
+		position: relative;
+		top: 5px;
+		left: 26%;
+	}
+	.orderingHeader{
+		margin:0;
+		width: 200px;
+		position: relative;
+		left: 20%;
+	}
+	.orderButton{
+		margin:0;
+		position: relative;
+		top: 5px;
+		left: 21%;
+	}
+	.navigationHeader{
+		margin:0;
+		width: 200px;
+		position: relative;
+		left: 26%;
+	}
+	.navigationLesson{
+		padding:0;
+		position: relative;
+		top: -500px;
+		left: 25%;
+	}
+	.navigationButton{
+		margin:0;
+		position: relative;
+		top: 5px;
+		left: 17%;
+	}
 
+}
+.colorsHeader, .vocabHeader, .daysHeader, .orderingHeader, .navigationHeader{
+	color: white;
 }
 
 @media only screen and (width: 768px) {
