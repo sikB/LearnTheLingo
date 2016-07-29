@@ -547,6 +547,19 @@ th{
 		top: 5px;
 		left: 17%;
 	}
+	.aboutDescription{
+		padding:0;
+		width: 220px;
+		left: 22%;
+		font-size: 14px;
+	}
+	.contributeContainer{
+		padding:0;
+		width: 200px;
+	}
+	.contributeText{
+		font-size: 14px;
+	}
 
 }
 .colorsHeader, .vocabHeader, .daysHeader, .orderingHeader, .navigationHeader{
