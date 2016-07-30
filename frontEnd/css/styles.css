@@ -616,6 +616,31 @@ th{
 .colorsHeader, .vocabHeader, .daysHeader, .orderingHeader, .navigationHeader, .nameStuff{
 	color: white;
 }
+@media only screen and (width: 375px){
+	.sideMenu{
+		background-color: transparent;
+	}
+	.navbar-toggle{
+		background-color: #eee;
+	}
+	.slide{
+		padding:0;
+	}
+	#myNavbar{
+		background: rgba(0, 0, 0, 0.5);
+		padding:0;
+		position: relative;
+		margin:0;
+		left: -21%;
+	}
+	.mainHeader{
+		margin:0;
+		position: relative;
+		left: 6%;
+		width: 320px;
+		font-size: 40px;
+	}
+}
 
 @media only screen and (width: 768px) {
 /*.col-1 {width: 8.33%;}
