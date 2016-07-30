@@ -640,6 +640,64 @@ th{
 		width: 320px;
 		font-size: 40px;
 	}
+	.subHeader{
+		margin: 0;
+	    padding: 0;
+	    position: relative;
+	    top: 10px;
+	    width: 220px;
+	    left: 33%;
+	    text-align: left;
+	}
+	.homePageDescription{
+		margin: 0;
+	    padding: 0;
+	    position: relative;
+	    top: 47px;
+	    width: 228px;
+	    left: 22%;
+	    font-size: 16px;
+	}
+	.mobileLanguages{
+		margin: 0;
+	    padding: 0;
+	    position: relative;
+	    width: 265px;
+	    top: -592px;
+	    left: 27%;
+	}
+	.languagesHeader{
+		text-align: left;
+	    margin: 0;
+	    padding: 0;
+	    position: relative;
+	    left: 37%;
+	    width: 220px;
+	}
+	.ukrFlag{
+		width: 40%;
+	    position: relative;
+	    top: 3px;
+	    left: 5%;
+	}
+	.russFlag{
+		width: 41%;
+	    position: relative;
+	    top: 4px;
+	    left: 5%;
+	}
+	.spainFlag{
+		width: 40%;
+	    position: relative;
+	    left: 8%;
+	    top: 3px;
+	}
+	.italFlag{
+		width: 40%;
+	    position: relative;
+	    left: 9%;
+	    top: 2px;
+	}
 }
 
 @media only screen and (width: 768px) {
