@@ -613,7 +613,10 @@ th{
 	}
 
 }
-.colorsHeader, .vocabHeader, .daysHeader, .orderingHeader, .navigationHeader, .nameStuff{
+.colorsHeader, .vocabHeader, .daysHeader, .orderingHeader, .navigationHeader, .nameStuff,
+.contribute, .contributeContainer1
+
+{
 	color: white;
 }
 @media only screen and (width: 375px){
@@ -697,6 +700,51 @@ th{
 	    position: relative;
 	    left: 9%;
 	    top: 2px;
+	}
+	.aboutHeader{
+		margin: 0;
+	    padding: 0;
+	    width: 300px;
+	    text-align: left;
+	    position: relative;
+	    left: 6%
+	}
+	.abouth1{
+		margin: 0;
+	    padding: 0;
+	    text-align: left;
+	    position: relative;
+	    left: 12%;
+	    font-size: 25px;
+	    width: 300px;
+	}
+	.aboutDescription{
+		padding: 0;
+	    margin: 0;
+	    width: 250px;
+	    position: relative;
+	    top: 12px;
+	    left: 24%;
+	    font-size: 16px;
+	}
+	.contribute{
+		text-align: left;
+	    width: 250px;
+	    margin: 0;
+	    padding: 0;
+	    position: relative;
+	    left: 30%;
+	}
+	.contributeContainer1{
+		padding: 0;
+	    margin: 0;
+	    position: relative;
+	    width: 260px;
+	    top: -640px;
+	    left: 27%;
+	}
+	.contributeText{
+		font-size: 16px;
 	}
 }
 
